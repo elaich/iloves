@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+a, a:visited, a:focus {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.logo_font {
+  font-family: 'Pinyon Script', cursive;
+  line-height: 2em;
+  font-size: 1.6em;
+  color: rgb(232, 93, 154);
+}
+
+.user_font {
+  font-family: 'Helvetica', arial;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ilove_font {
+  font-family: 'Dancing Script', cursive;
+  color: rgb(95, 61, 76);
+}
+
+.background_0 {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.background_1 {
+  background-color: rgb(195, 185, 189)
+}
+
+.shadow_1 {
+  box-shadow: 0px 3px 4px #999;
+}
+
+.shadow_2 {
+  box-shadow: 1px 1px 5px #aaa;
+}
+
+body, h1 {
+  margin: 0px auto;
+  text-align: center;
+}
+
+body section header h1 {
+  display: inline;
+}
+
+body section header {
+  margin-bottom: 50px
+}
+
+body section article {
+  width: 300px;
+  margin: auto;
+  padding: 5px 0px;
+  border-radius: 5px;
+}
+
+body section article textarea {
+  width: 260px;
+  min-height: 150px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  resize: none;
+  overflow: auto;
+}
+
+.hidden {
+  display: none !important ;
+}
+
+.like_button {
+  margin: 0px;
+  padding: 0px;
+  /*padding: 5px;*/
+  width: 26px;
+  height: 26px;
+  background-image: url('../img/grey_heart.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline;
+  float: left;
+  position: relative;
+  bottom: 0px;
+  left: 10px;
+  border: 1px solid rgb(195, 185, 189);
+  border-radius: 4px;
+}
+
+.write_ilove_button {
+  position: absolute;
+  left: 2%;
+  top: 5px;
+  font-size: 1em;
+}
+
+.user_holder {
+  position: absolute;
+  right: 2%;
+  top: 8px;
+  width: 200px;
+  text-align: left;
+  border-radius: 4px; 
+}
+
+.user_name {
+  padding: 6px 0px 6px 10px;
+  display: inline-block;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.user_image {
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.ilove_button:hover {
+  box-shadow: 1px 2px 5px #aaa;
+}
+
+.ilove_button {
+  background-color: rgb(232, 93, 154);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-family: 'Pacifico', cursive;
+  cursor: pointer;
+}
+
+.add_ilove_button {
+  position: relative;
+  left: 110px;
+  padding: 4px 8px;
+  font-size: 0.8em;
+}
+
+.navigation_button {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid rgb(195, 185, 189);
+  display: inline-block;
+}
+
+.navigation_block {
+  text-align: left;
+  padding-top: 10px;
+  border-top: 2px solid rgb(195, 185, 189);
+
+}
+
+.ilove_text_block {
+  text-align: left;
+}
+
+.ilove_text {
+  padding: 25px 20px 25px 50px;
+  margin: 0px;
+}
+
+.ilove_author {
+  text-align: right;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding-right: 10px;
+  font-size: 0.8em;
+}
+.next_button {
+  background-image: url('../img/grey_left_arrow.png');
+  position:relative;
+  left:223px;
+}
+
+.previous_button {
+  background-image: url('../img/grey_right_arrow.png');
+  position:relative;
+  left:20px;
+}
+
+body section article button span {
+  width: 16px;
+  height: 16px;
+  display: block;
+}

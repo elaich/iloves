@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ILoves</title>
+  <link rel="stylesheet" href="static/css/base.css">
+</head>
+<body class="background_1">
+<section id="main">
+  <header class="background_0 shadow_1">
+    <a href="#/add">
+      <button class="write_ilove_button ilove_button">write an ilove</button>
+    </a>
+    <a href="#">
+      <h1 class="logo_font">ILoves</h1>
+    </a>
+    <div class="user_holder background_1" style="float: right;">
+      <span class="user_image" style="background-image: url('<%= photo_url %>');"></span>
+      <span class="user_name"><%= user_name %></span>
+    </div>
+  </header>
+  <article class="background_0 shadow_2" id="main-article">
+
+  </article>
+  <footer>
+    <p>ILoves - by El Aich</p>
+  </footer>
+</section>
+<script type="text/template" id="ilove-template"> 
+    <div class="ilove_text_block">
+      <button class="like_button hidden"></button>
+      <p class="ilove_font ilove_text">
+      I love {{ text }}
+      </p>
+      <p class="ilove_font ilove_author">
+      </p>
+    </div>
+    <div class="navigation_block">
+      <button class="navigation_button previous_button"></button>
+      <button class="navigation_button next_button"></button>
+    </div>
+</script>
+<script type="text/template" id="ilove-form-template">
+    <textarea class="ilove_font" placeholder="write what you love"></textarea>
+    <button class="add_ilove_button ilove_button">Spread</button>
+</script>
+<script src="static/js/lib/jquery-min.js"></script>
+<script src="static/js/lib/underscore-min.js"></script>
+<script src="static/js/lib/backbone-min.js"></script>
+<script src="static/js/lib/backbone.localStorage-min.js"></script>
+<script src="static/js/models/ilove.js"></script>
+<script src="static/js/collections/iloves.js"></script>
+<script src="static/js/views/ilove.js"></script>
+<script src="static/js/views/addILove.js"></script>
+<script src="static/js/views/app.js"></script>
+<script src="static/js/routers/app.js"></script>
+<script src="static/js/app.js"></script>
+</body>
+</html>
